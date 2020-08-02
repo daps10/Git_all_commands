@@ -92,3 +92,38 @@ _22._ fetch and merge any commits from the tracking remote branch
 ``` 
 $ git pull
 ```
+_23._ delete the file from project and stage the removal for commit
+``` 
+$ git rm [file]
+```
+_24._ change an existing file path and stage the move
+``` 
+$ git mv [existing-path] [new-path]
+```
+_25._ show all commit logs with indication of any paths that moved
+``` 
+$ git log --stat -M
+```
+_26._ apply any commits of current branch ahead of specified one
+``` 
+$ git rebase [branch]
+```
+_27._ clear staging area, rewrite working tree from specified commit
+``` 
+$ git reset --hard [commit]
+```
+_28._ Save modified and staged changes
+``` 
+$ git stash
+```
+_29._ list stack-order of stashed file changes
+``` 
+$ git stash list
+```
+_30._ write working from top of stash stack
+``` 
+$ git stash pop
+```
+_31._ discard the changes from top of stash stack
+``` 
+$ git stash drop
