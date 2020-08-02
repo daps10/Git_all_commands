@@ -1,7 +1,5 @@
 # Git_all_commands
 
-<img align="center" src="http://valuebound.com/sites/default/files/2015-12/Beginners_guide_setting_up-git.jpg">
-  
 _1._ Initializing the repository
 ``` 
 $ git init .
